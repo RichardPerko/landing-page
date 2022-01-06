@@ -1,4 +1,7 @@
-
+body{
+    margin:0;
+    padding:0;
+}
 
 .header{
     color: white;
@@ -22,7 +25,6 @@ ul{
     display: flex;
 }
 .signup{
-    border: 1px solid red;
     color: white;
     background: #1F2937;
     display: flex;
@@ -32,20 +34,106 @@ ul{
 }
 
 .signupimg{
+    background: grey;
     width:400px;
     height: 150px;
 }
 
 .left,
 .right{
-    border: 1px solid red;
-    justify-content: space-between;
+    margin: 16px;
     display:flex;
     flex-direction: column;
 }
 
+.left{
+    max-width: 350px;
+}
 .signupbutton{
+    font-weight: 700;
+    width: 120px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    color: white;
+    background-color:  #3882f6;
+}
+.infohead{
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.infoimg{
+    background: gray;
     width: 150px;
-    padding: 4px 8px;
-    border-radius: 8px ;
+    height: 150px;
+}
+
+.text{
+    max-width: 150px;
+    font-size: 14px;
+}
+.information{
+    font-size: 16px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 36px;
+}
+.inspiration{
+    background: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote{
+    flex-direction: column;
+    display: flex;
+    font-size: 24px;
+    font-style: italic;
+    width: 500px;
+}
+.speaker{
+    font-weight: 700;
+    display: flex;
+    margin-left: 300px;
+}
+.signup2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.container{
+    display: flex;
+    padding: 36px;
+    gap: 36px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 650px;
+}
+.s2left{
+    flex-direction: column;
+    margin-right: 72px;
+}
+.s2header{
+    font-weight: 800;
+    color:white;
+}
+.s2text{
+    font-size: 12px;
+    color: white
+}
+.footer{
+    color: white;
+    height: 75px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
