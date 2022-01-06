@@ -1,0 +1,51 @@
+
+
+.header{
+    color: white;
+    height: 100px;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    display: flex;
+}
+.signup{
+    border: 1px solid red;
+    color: white;
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signupimg{
+    width:400px;
+    height: 150px;
+}
+
+.left,
+.right{
+    border: 1px solid red;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: column;
+}
+
+.signupbutton{
+    width: 150px;
+    padding: 4px 8px;
+    border-radius: 8px ;
+}
